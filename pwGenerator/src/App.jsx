@@ -26,7 +26,7 @@ function App() {
       <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-white bg-gray-500'>Password Generator</div>
       <div className='flex shadow rounded-lg overflow-hidden mb-4'>
         <input
-          type='text'
+          type='text' 
           value={password}
           className='outline-none w-full py-1 px-3'
           readOnly
